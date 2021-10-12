@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "target": "ESNext",
+      "module": "ESNext",
+      "lib": [
+        "DOM",
+        "DOM.Iterable",
+        "ESNext",
+        "webworker"
+      ],
+      "allowJs": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "isolatedModules": false,
+      "noEmit": false,
+      "sourceMap": true,
+      "jsx": "preserve",
+      "importsNotUsedAsValues": "preserve",
+      "declaration": true,
+      "declarationDir": "dist",
+      "emitDeclarationOnly": true,
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
